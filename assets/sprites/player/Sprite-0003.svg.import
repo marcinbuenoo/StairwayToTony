@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b7tskiy2gywt3"
-path="res://.godot/imported/tonyStopLeft.svg-e38137cbf050e8ff225d41acb27c1615.ctex"
+uid="uid://dntvwgx42rx7p"
+path="res://.godot/imported/Sprite-0003.svg-270fd47e4f6ff9529a2b309992021fcc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/player/tonyStopLeft.svg"
-dest_files=["res://.godot/imported/tonyStopLeft.svg-e38137cbf050e8ff225d41acb27c1615.ctex"]
+source_file="res://assets/sprites/player/Sprite-0003.svg"
+dest_files=["res://.godot/imported/Sprite-0003.svg-270fd47e4f6ff9529a2b309992021fcc.ctex"]
 
 [params]
 

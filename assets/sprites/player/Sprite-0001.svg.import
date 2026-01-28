@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c4ukki0xjsbsk"
-path="res://.godot/imported/tonyRightMovement01.svg-556077d03cbeff815b2cc3b026009d7b.ctex"
+uid="uid://vsowcx5qeto"
+path="res://.godot/imported/Sprite-0001.svg-6d43c2bb51ef8cfa884151dbd636c0e7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/player/tonyRightMovement01.svg"
-dest_files=["res://.godot/imported/tonyRightMovement01.svg-556077d03cbeff815b2cc3b026009d7b.ctex"]
+source_file="res://assets/sprites/player/Sprite-0001.svg"
+dest_files=["res://.godot/imported/Sprite-0001.svg-6d43c2bb51ef8cfa884151dbd636c0e7.ctex"]
 
 [params]
 

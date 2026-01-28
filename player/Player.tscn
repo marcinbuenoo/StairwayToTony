@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://dh6lqaiuwyi2u"]
+
+[ext_resource type="Texture2D" uid="uid://vsowcx5qeto" path="res://assets/sprites/player/Sprite-0001.svg" id="1_ylu1k"]
+[ext_resource type="Texture2D" uid="uid://daiy875u8jprq" path="res://assets/sprites/player/Sprite-0003.png" id="2_ydsn6"]
+[ext_resource type="Texture2D" uid="uid://c1r3usp8kohat" path="res://assets/sprites/player/Sprite-0002.svg" id="3_scca8"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5fe0u"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ylu1k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_ydsn6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_scca8")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_00gdi"]
+radius = 90.0
+height = 256.0
+
+[node name="player" type="CharacterBody2D" unique_id=274505616]
+
+[node name="Node2D" type="Node2D" parent="." unique_id=1046567655]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Node2D" unique_id=1821098767]
+sprite_frames = SubResource("SpriteFrames_5fe0u")
+frame_progress = 0.13709027
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1110654690]
+position = Vector2(13, 3)
+shape = SubResource("CapsuleShape2D_00gdi")
