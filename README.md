@@ -1,6 +1,8 @@
-## STAIRWAY TO TONY
+# STAIRWAY TO TONY
 
+  Starway to Tony is my first time developing a game, I hope the project will be a good game
 
+## PROJECT DIRECTORY ARCHITETURE 
 ```
 /StairwayToTony
 |-- project.godot
