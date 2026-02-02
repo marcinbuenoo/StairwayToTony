@@ -7,7 +7,7 @@ func  _physics_process(delta):
 "move_up", "move_down")
 	velocity = direction * speed
 	move_and_slide()
-
+	
 	if velocity.length() > 0.0:
 		$Node2D/AnimatedSprite2D.play("walk")
 		
@@ -15,3 +15,8 @@ func  _physics_process(delta):
 			$Node2D/AnimatedSprite2D.flip_h = direction.x < 0
 	else:
 		$Node2D/AnimatedSprite2D.play("stop")
+		
+	var turnDown = Input.is_action_pressed("turn_down")
+
+	if turnDown:
+		$Node2D/AnimatedSprite2D.play("shift")
