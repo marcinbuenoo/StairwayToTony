@@ -52,3 +52,5 @@ animation = &"shift"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1110654690]
 position = Vector2(13, 3)
 shape = SubResource("CapsuleShape2D_00gdi")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=278743252]
