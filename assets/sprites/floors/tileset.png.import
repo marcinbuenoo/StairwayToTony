@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bcxect0lesisf"
-path="res://.godot/imported/firstFloor.svg-47021b7ac2c335ebc23d63313e5b931b.ctex"
+uid="uid://datntkunar7rf"
+path="res://.godot/imported/tileset.png-edf919cc0945274356babbb4b1d6a89f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/floors/firstFloor.svg"
-dest_files=["res://.godot/imported/firstFloor.svg-47021b7ac2c335ebc23d63313e5b931b.ctex"]
+source_file="res://assets/sprites/floors/tileset.png"
+dest_files=["res://.godot/imported/tileset.png-edf919cc0945274356babbb4b1d6a89f.ctex"]
 
 [params]
 
@@ -38,6 +38,3 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=10.0
-editor/scale_with_editor_scale=false
-editor/convert_colors_with_editor_theme=false
