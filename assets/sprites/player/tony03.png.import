@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://vsowcx5qeto"
-path="res://.godot/imported/Sprite-0001.svg-6d43c2bb51ef8cfa884151dbd636c0e7.ctex"
+uid="uid://i3djwhhbq8vc"
+path="res://.godot/imported/tony03.png-d6de7411940452c6991bb0d293b7d423.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/player/Sprite-0001.svg"
-dest_files=["res://.godot/imported/Sprite-0001.svg-6d43c2bb51ef8cfa884151dbd636c0e7.ctex"]
+source_file="res://assets/sprites/player/tony03.png"
+dest_files=["res://.godot/imported/tony03.png-d6de7411940452c6991bb0d293b7d423.ctex"]
 
 [params]
 
@@ -38,6 +38,3 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=1.0
-editor/scale_with_editor_scale=false
-editor/convert_colors_with_editor_theme=false

@@ -1,24 +1,15 @@
 [gd_scene format=3 uid="uid://dh6lqaiuwyi2u"]
 
 [ext_resource type="Script" uid="uid://sqgd4xqua56s" path="res://scenes/player/player.gd" id="1_83hs8"]
-[ext_resource type="Texture2D" uid="uid://vsowcx5qeto" path="res://assets/sprites/player/Sprite-0001.svg" id="1_ylu1k"]
-[ext_resource type="Texture2D" uid="uid://c7c8mujs6lybt" path="res://assets/sprites/player/Sprite-0004.svg" id="2_tpg5x"]
-[ext_resource type="Texture2D" uid="uid://c1r3usp8kohat" path="res://assets/sprites/player/Sprite-0002.svg" id="3_scca8"]
-[ext_resource type="Texture2D" uid="uid://dntvwgx42rx7p" path="res://assets/sprites/player/Sprite-0003.svg" id="4_83hs8"]
+[ext_resource type="Texture2D" uid="uid://crnhbdvi7nup1" path="res://assets/sprites/player/tony01.png" id="2_524rm"]
+[ext_resource type="Texture2D" uid="uid://dm6rrngrgijqe" path="res://assets/sprites/player/tony02.png" id="3_tpg5x"]
+[ext_resource type="Texture2D" uid="uid://i3djwhhbq8vc" path="res://assets/sprites/player/tony03.png" id="4_c3xxp"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_5fe0u"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2_tpg5x")
-}],
-"loop": true,
-"name": &"shift",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("1_ylu1k")
+"texture": ExtResource("2_524rm")
 }],
 "loop": true,
 "name": &"stop",
@@ -26,10 +17,16 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("3_scca8")
+"texture": ExtResource("3_tpg5x")
 }, {
 "duration": 1.0,
-"texture": ExtResource("4_83hs8")
+"texture": ExtResource("4_c3xxp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_tpg5x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_c3xxp")
 }],
 "loop": true,
 "name": &"walk",
@@ -37,8 +34,7 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_00gdi"]
-radius = 90.0
-height = 256.0
+height = 26.0
 
 [node name="player" type="CharacterBody2D" unique_id=274505616]
 script = ExtResource("1_83hs8")
@@ -47,10 +43,11 @@ script = ExtResource("1_83hs8")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Node2D" unique_id=1821098767]
 sprite_frames = SubResource("SpriteFrames_5fe0u")
-animation = &"shift"
+animation = &"stop"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1110654690]
-position = Vector2(13, 3)
+position = Vector2(0, 3)
 shape = SubResource("CapsuleShape2D_00gdi")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=278743252]
+zoom = Vector2(5, 5)
