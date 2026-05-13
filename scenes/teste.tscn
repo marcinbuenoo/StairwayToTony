@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://elsircr4g362"]
+[gd_scene format=4 uid="uid://elsircr4g362"]
 
 [ext_resource type="PackedScene" uid="uid://dh6lqaiuwyi2u" path="res://scenes/player/Player.tscn" id="1_kta4m"]
 [ext_resource type="Texture2D" uid="uid://3j4ctsljykx2" path="res://assets/sprites/floors/tileset01.png" id="2_2gqm3"]
@@ -21,6 +21,22 @@ texture = ExtResource("2_2gqm3")
 4:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 5:4/0 = 0
 5:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:5/0 = 0
+2:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:5/0 = 0
+3:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+4:5/0 = 0
+4:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+5:5/0 = 0
+5:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+5:6/0 = 0
+5:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+4:6/0 = 0
+4:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:6/0 = 0
+3:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:6/0 = 0
+2:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
 [sub_resource type="TileSet" id="TileSet_kta4m"]
 physics_layer_0/collision_layer = 1
@@ -31,4 +47,5 @@ sources/0 = SubResource("TileSetAtlasSource_3r2dd")
 [node name="player" parent="." unique_id=274505616 instance=ExtResource("1_kta4m")]
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=801817041]
+tile_map_data = PackedByteArray("AAD+/wEAAAACAAMAAAD+/wIAAAACAAQAAAD//wEAAAADAAMAAAD//wIAAAADAAQAAAAAAAEAAAAEAAMAAAAAAAIAAAAEAAQAAAABAAEAAAADAAMAAAABAAIAAAADAAQAAAACAAEAAAAEAAMAAAACAAIAAAAEAAQAAAADAAEAAAADAAMAAAADAAIAAAADAAQAAAAEAAEAAAAEAAMAAAAEAAIAAAAEAAQAAAAFAAEAAAADAAMAAAAFAAIAAAADAAQAAAAGAAEAAAADAAMAAAAGAAIAAAADAAQAAAAHAAEAAAAEAAMAAAAHAAIAAAAEAAQAAAAIAAEAAAADAAMAAAAIAAIAAAADAAQAAAAJAAEAAAAEAAMAAAAJAAIAAAAEAAQAAAAKAAEAAAADAAMAAAAKAAIAAAADAAQAAAALAAEAAAAEAAMAAAALAAIAAAAEAAQAAAAMAAEAAAADAAMAAAAMAAIAAAADAAQAAAANAAEAAAAEAAMAAAANAAIAAAAEAAQAAAAOAAAAAAAFAAYAADAOAAIAAAADAAQAAAAPAAIAAAADAAQAAAAQAAIAAAADAAQAAAARAAIAAAADAAQAAAARAAEAAAADAAQAAAAQAAEAAAADAAQAAAAPAAAAAAADAAMAAAAQAAAAAAAEAAMAAAARAAAAAAAEAAMAAAASAAAAAAAFAAMAAAASAAEAAAAFAAQAAAASAAIAAAAFAAQAAAAOAAEAAAADAAQAAAAPAAEAAAADAAQAAAD+/wMAAAACAAYAAAD//wMAAAADAAYAAAAAAAMAAAAEAAYAAAABAAMAAAADAAYAAAACAAMAAAAEAAYAAAADAAMAAAADAAYAAAAEAAMAAAAEAAYAAAAFAAMAAAADAAYAAAAGAAMAAAAEAAYAAAAHAAMAAAADAAYAAAAIAAMAAAAEAAYAAAAJAAMAAAADAAYAAAAKAAMAAAAEAAYAAAALAAMAAAADAAYAAAAMAAMAAAAEAAYAAAANAAMAAAADAAYAAAAOAAMAAAAEAAYAAAAPAAMAAAADAAYAAAAQAAMAAAAEAAYAAAARAAMAAAAEAAYAAAASAAMAAAAFAAYAAAA=")
 tile_set = SubResource("TileSet_kta4m")
