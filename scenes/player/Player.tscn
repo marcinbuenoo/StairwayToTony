@@ -11,7 +11,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("2_524rm")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stop",
 "speed": 5.0
 }, {
@@ -28,13 +28,13 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("4_c3xxp")
 }],
-"loop": true,
+"loop": 1,
 "name": &"walk",
 "speed": 5.0
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_00gdi"]
-height = 26.0
+height = 28.0
 
 [node name="player" type="CharacterBody2D" unique_id=274505616]
 script = ExtResource("1_83hs8")
@@ -46,7 +46,7 @@ sprite_frames = SubResource("SpriteFrames_5fe0u")
 animation = &"stop"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1110654690]
-position = Vector2(0, 3)
+position = Vector2(0, 2)
 shape = SubResource("CapsuleShape2D_00gdi")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=278743252]
